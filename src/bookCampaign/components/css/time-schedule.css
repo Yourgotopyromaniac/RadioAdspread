@@ -1,0 +1,161 @@
+
+#time-schedule {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.7);
+    z-index: 9999;
+    
+}
+.hide-talk-to-expert{
+    display: none;
+}
+
+#time-schedule > div {
+    /* position: absolute; */
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 35px 15px;
+    /* padding: 40px 124px 30px; */
+    /* border: 1px solid black; */
+    background-color: #fff;
+    z-index: 9999;
+}
+#time-btn {
+    display: flex;
+    padding: 30px;
+    padding-top: 0;
+}
+
+#time-btn > button {
+    border: none;
+    padding: 10px 26px;
+}
+.bg-color {
+    background-color:  var(--text-yellow);
+    color: white;
+}
+.view-schedule {
+    width: 100%;
+    
+}
+.view-schedule > table {
+    border: none;
+}
+.view-schedule-table {
+    padding-left: 117px;
+    
+}
+#day-btn-cont {
+    width: 100%;
+    overflow-x: scroll;
+}
+#day-btn-cont > div {
+    width: 450px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 16px 0 34px 10px;
+}
+#day-btn-cont > div button {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--primary-green);
+}
+#day-btn-cont > div button.active-time {
+    background: var(--text-yellow);
+    color: var(--primary-white-100);
+    padding: 11.5px 19.5px;
+}
+#time-schedule-table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--primary-green);
+}
+#time-schedule-table > div {
+    width: 100%;
+}
+#time-schedule-table > div:nth-child(1) {
+    font-weight: 700;
+    font-size: 14px;
+    background: #E4F0ED;
+    width: 100%;
+    display: flex;
+    padding: 12px 35px 12px 33px;
+}
+#time-schedule-table > div:nth-child(2) > div {
+    width: 100%;
+    display: flex;
+    padding: 17px 35px 17px 33px;
+}
+#time-schedule-table > div:nth-child(2) > div:nth-child(even) {
+    background: #E4F0ED;
+    padding: 12px 35px 12px 33px;
+}
+#time-schedule-table > div:nth-child(1) > div:nth-child(1),
+#time-schedule-table > div:nth-child(2) > div > div:nth-child(1) {
+    width: 100%;
+    max-width: 121px;
+}
+#time-schedule-table > div:nth-child(1) > div:nth-child(2),
+#time-schedule-table > div:nth-child(2) > div > div:nth-child(2) {
+    width: 100%;
+    max-width: 136px;
+}
+.table-body-container > .hide-border > thead > tr,
+.table-body-container > .hide-border > tbody > tr
+{
+    border: none;
+}
+
+@media screen and (min-width: 780px) {
+    #time-schedule {
+        /* max-width: 780px; */
+    }
+    #day-btn-cont {
+        overflow: hidden;
+    }
+    #day-btn-cont > div {
+        width: 100%;
+        gap: 40px;
+        padding: 30px 37px 20px 36px;
+    }
+    #day-btn-cont > div button {
+        font-size: 16px;
+    }
+    #day-btn-cont > div button.active-time {
+        padding: 11.5px 35px;
+    }
+    #time-schedule-table {
+        font-size: 14px;
+    }
+    #time-schedule-table > div:nth-child(1) {
+        font-size: 15px;
+        padding: 15px 108px 9px 117px;
+    }
+    #time-schedule-table > div:nth-child(2) > div {
+        padding: 20px 108px 14px 117px;
+    }
+    #time-schedule-table > div:nth-child(2) > div:nth-child(even) {
+        padding: 15px 108px 9px 117px;
+    }
+    #time-schedule-table > div:nth-child(1) > div:nth-child(1),
+    #time-schedule-table > div:nth-child(2) > div > div:nth-child(1) {
+        width: 100%;
+        max-width: 248px;
+    }
+    #time-schedule-table > div:nth-child(1) > div:nth-child(2),
+    #time-schedule-table > div:nth-child(2) > div > div:nth-child(2) {
+        width: 100%;
+        max-width: 253px;
+    }
+}

@@ -1,0 +1,126 @@
+.create-portfolio-container {
+  padding: 40px 0;
+  padding-left: 65px;
+  padding-right: 120px;
+  
+}
+
+.portfolio-input-container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  gap: 55px 70px;
+  text-transform: capitalize;
+}
+
+.create-portfolio-header {
+  padding-bottom: 40px;
+  color: #004643;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.portfolio-input {
+  max-width: 500px;
+  border: 1px solid #cacaca;
+  border-radius: 2px;
+}
+.portfolio-input > input,
+.portfolio-input > select
+{
+  width: 100%;
+  padding: 15px;
+
+}
+
+/* .portfolio-input-container > div > span {
+  color: #004643;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  bottom: 16px;
+  margin-top: -30px;
+} */
+
+.portfolio-input-container>div>fieldset>select {
+  width: 100%;
+}
+
+/* .portfolio-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.form-input-wrapper>div>span {
+
+  color: #004643;
+  font-family: Adobe Clean;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+ */
+
+.portfolio-btn-container {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* .portfolio-file-container> .css-1h4ws66{
+   max-width: 500px !important;
+} */
+
+.portfolio-file-container .css-1yovsmt {
+  max-width: 500px !important;
+}
+
+/* .form-input-wrapper>span{
+    position: absolute;
+    font-size: 90px;
+    margin-top: 700px;
+} */
+.portfolio-btn-container>button {
+  width: fit-content;
+  padding: 15px 130px;
+  background: #f99b28;
+  color: #fff;
+  border-radius: 2px 0px 0px 2px;
+  text-transform: capitalize;
+}
+
+
+@media (min-width: 768px) {
+  .portfolio-input-container {
+    /* padding-top: 40px; */
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+  }
+
+  .portfolio-input {
+    max-width: 100%;
+  }
+
+  .portfolio-btn-container>button {
+    max-width: 500px;
+    width: 100%;
+    padding: 10px 30px;
+  }
+
+  .portfolio-file-container>div {
+    max-width: 680px !important;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .create-portfolio-container {
+    padding-right: 55px;
+  }
+}

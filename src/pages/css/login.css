@@ -1,0 +1,297 @@
+#login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    background-color: #ABD1C6;
+    
+    /* display: none; */
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+
+#login > div > header {
+    padding: 30px 20px;
+}
+#login > div > header>nav>a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#login > div > div {
+    width: 100%;
+    max-width: 573px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 15.9578px 23.9367px rgba(59, 77, 92, 0.1);
+    border-radius: 0px;
+    
+
+}
+#login > div > div > main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+
+  
+}
+#login > div > div > main > div {
+    width: 100%;
+    max-width: 336px;
+}
+.login-modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem 1rem;
+    padding-right: 0;
+}
+.login-modal-header > svg {
+    cursor: pointer;
+}
+
+#login > div > div > main > div > div {
+    text-align: center;
+}
+#login > div > div > main > div h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    color: #3B3950;
+    margin-bottom: 8px;
+}
+#login > div > div > main > div p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    color: #3B3950;
+}
+#login > div > div > main > div > form > .form-container {
+    width: 100%;
+    margin: 55px 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+#login > div > div > main > div > form > .form-container > div:nth-child(1),
+#login > div > div > main > div > form > .form-container > div:nth-child(2) {
+    position: relative;
+    width: 100%;
+    height: 44px;
+    border: 1px solid #CACACA;
+    border-radius: 2px;
+}
+#login > div > div > main > div > form > .form-container > div:nth-child(1) > div,
+#login > div > div > main > div > form > .form-container > div:nth-child(2) > div {
+    height: 100%;
+}
+#login > div > div > main > div > form > .form-container > div {
+    margin-bottom: 30px;
+}
+#login > div > div > main > div > form > .form-container > div > input {
+    margin-bottom: 5px;
+}
+/* #login > div > div > main > div > form > .form-container > div:nth-child(2) {
+    margin: 30px 0 12px;
+} */
+.login-label {
+    padding: 0 2px;
+    background: #fff;
+    position: absolute;
+    top: -12px;
+    left: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    letter-spacing: 0.02em;
+    z-index: 999;
+    color: #3B3950;
+}
+#login-username, #login-password {
+    width: 100%;
+    height: 100%;
+    padding: 0 18px;
+}
+#login-username, #login-password, #login-username::placeholder, #login-password::placeholder {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: calc(12 / 10);
+    color: #7A7979;
+}
+#show-password {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+#login > div > div > main > div > form > .form-container > div  > span {
+    background-color: #F1DEDE;
+    font-size: 14px;
+    color: crimson;
+    /* padding: 5px 10px; */
+    position: absolute;
+    top: -30px;
+    left: 0;
+    /* color: #CDB3D7; */
+}
+#login-option {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+#login-option > div {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+#login-option > div button {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ABA8A8;
+    border-radius: 2px;
+}
+#login-option > div span {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: calc(13 / 11);
+    color: #7A7979;
+}
+#forgot-password {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(15 / 12);
+    color: var(--text-yellow);
+}
+#login-button {
+    width: 100%;
+    height: 44px;
+    background: var(--text-yellow);
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: calc(19 / 15);
+    color: var(--primary-white-100);
+}
+#login > div > div > main > div > p {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    color: #3B3950;
+    text-transform: initial;
+}
+.signup-option {
+    margin-top: 1.5rem;
+}
+.signup-other-option{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+#login > div > div > main > div > p a {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: var(--text-yellow);
+}
+
+@media screen and (min-width: 700px) {
+    #login {
+        background: rgba(0, 0, 0, 0.2);
+        justify-content: center;
+    }
+    #login > div > header {
+        display: none;
+    }
+    .login-modal-header{
+        padding-right: 1rem;
+    }
+    #login > div > div {
+        padding: 1rem;
+        box-shadow: 0px 15.9578px 23.9367px rgba(59, 77, 92, 0.1);
+        border-radius: 7.18102px;
+        margin: 1.75rem auto;
+    }
+    #login > div > div > main > div {
+        width: 100%;
+        max-width: 336px;
+    }
+    #login > div > div > main > div > div {
+        text-align: center;
+    }
+    #login > div > div > main > div h2 {
+        font-size: 20px;
+        line-height: calc(25 / 20);
+    }
+    #login > div > div > main > div > form >.form-container {
+        margin: 44px 0 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #login > div > div > main > div > form >.form-container >div > input {
+       margin-bottom: 5px;
+    }
+    #login > div > div > main > div > form >.form-container >div > span {
+        font-size: 10px;
+        color: crimson;
+    }
+    /* #login > div > div > main > div > form > .form-container > div:nth-child(2) {
+        margin: 32px 0 12px;
+    } */
+    .login-label {
+        padding: 0 3px;
+        left: 20px;
+        /* margin-top: 10px; */
+    }
+    #login-username, #login-password {
+        padding: 0 20px;
+    }
+    #login-username, #login-password, #login-username::placeholder, #login-password::placeholder {
+        font-size: 12px;
+        line-height: calc(14 / 12);
+    }
+    #login-option {
+        /* margin-top: 30px; */
+        margin-bottom: 42px;
+    }
+    #login-option > div {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+    }
+    #login-option > div button {
+        width: 12px;
+        height: 12px;
+    }
+    #login-option > div span {
+        font-size: 12px;
+        line-height: calc(15 / 12);
+    }
+}
+#login > div > aside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(0,0,0,.7);
+    z-index: 9999;
+}
+/* .Toastify__toast--success {
+    background: teal;
+  }
+  .Toastify__toast--error {
+    background: red;
+    color: #fff;
+  } */

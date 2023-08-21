@@ -1,0 +1,63 @@
+.jingles-container {
+    border: 1px solid rgba(89, 84, 84, 0.6);
+
+
+}
+.jingles-wrapper {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 108px;
+    display: flex;
+column-gap: 3rem;
+height: 375px;
+    overflow-y: scroll;
+}
+.duration-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* margin-top: 20px; */
+}
+.duration-btn > button {
+    color: #fff;
+    width: fit-content;
+    background-color: #004643;
+    padding: 13px 14px;
+    border-radius: 2px 0px 2px 2px;
+}
+.durartion-input {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 100px;
+    margin-top: -25px;
+}
+.price-input-container {
+display: flex;
+flex-direction: column;
+/* gap: 50px; */
+}
+
+.price-input-field {
+    width: 180px;
+    padding: 12px 0;
+    padding-left: 20px;
+    border: 0.8px solid #ABA8A8;
+}
+.price-field-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 1.25rem;
+    column-gap: 3rem;
+    margin-top: 5px;
+    /* gap: 3rem; */
+}
+.hello {
+    padding-left: 65px;
+    padding-right: 30px;
+padding-bottom: 100px;
+
+}
+.jingles-btn {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}

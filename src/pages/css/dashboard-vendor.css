@@ -1,0 +1,124 @@
+.dashboard-container {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    padding-left: 4rem;
+    padding-right: 3rem;
+    /* font-family: Adobe Clean; */
+}
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dashboard-card-wrapper {
+display: flex;
+border: 2px solid black;
+flex-wrap: wrap;
+gap: 10px;
+
+}
+
+.card-one {
+    color: #fff;
+    padding: 22px 35px;
+    width: 270px;
+    background-color: #004643;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+    .card-one {
+        width: 120px;
+        padding: 11px 0px;
+        padding-left: 7px;
+        padding-right: 5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .card-one > img{
+width: 20px;
+height: 20px;
+    }
+}
+.card-one > div {
+    display: flex;
+    flex-direction: column;
+}
+.card-one > div > span {
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.05em;
+}
+@media screen and (max-width: 768px) {
+    .card-one > div > span {
+        font-size: 10px;
+        line-height: 17px;
+    }
+}
+.card-one > div > h4 {
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.05em;
+}
+@media screen and (max-width: 768px) {
+    .card-one > div > h4 {
+        font-size: 8px;
+line-height: 10px;
+    }
+}
+.dashboard-table-wrapper {
+    padding-top: 40px;
+margin-top: 20px;
+
+}
+.dashboard-table-wrapper > h3{
+    color: #004643;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 20px;
+
+}
+.vendor-table-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+    border: 0.8px solid rgba(0, 70, 67, 0.6);
+    border-radius: 2px;
+ 
+
+
+}
+/* @media (max-width: 768px) {
+    .vendor-table-wrapper {
+        width: 500px;
+        overflow-x: scroll;
+    }
+} */
+.vendor-table {
+    height: 300px;
+    overflow-y: scroll;
+ 
+}
+/* @media screen and (max-width: 768px) {
+    .vendor-table {
+        width: 800px;
+        overflow-x: scroll;
+    }
+} */
+.vendor-table tr:nth-child(1) {
+    font-size: 12px;
+    line-height: 14px;
+}

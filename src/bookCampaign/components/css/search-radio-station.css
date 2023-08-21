@@ -1,0 +1,237 @@
+section#search-radio-station {
+    background: var(--primary-green);
+    color: var(--primary-white-200);
+    display: flex;
+    justify-content: center;
+}
+
+section#search-radio-station>div {
+    width: 100%;
+    padding: 40px 15px 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#search-radio-station>div>h1 {
+    /* max-width: 258px; */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    font-family: Adobe Clean;
+    text-align: center;
+}
+
+section#search-radio-station>div>form {
+    width: 100%;
+    max-width: 482px;
+    margin: 40px 0 27px;
+    padding: 40px 20px 20px;
+    background: rgba(171, 209, 198, 0.32);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+section#search-radio-station>div>form>div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+section#search-radio-station>div>form>div>div {
+    position: relative;
+    width: 100%;
+    max-width: 385px;
+    height: 44px;
+}
+
+section#search-radio-station>div>form>div>div>select {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    padding-left: 20px;
+    color: var(--text-green);
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 0.65rem auto;
+}
+
+/* section#search-radio-station > div > form > div > div > input::placeholder {
+    color: var(--text-green);
+}
+section#search-radio-station > div > form > div > div > svg {
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+} */
+section#search-radio-station>div>form button {
+    width: 100%;
+    max-width: 210px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 15px;
+    background: var(--text-yellow);
+    border-radius: 2px;
+    color: var(--primary-white-200);
+    transition: background-color 500ms, color 500ms;
+}
+
+section#search-radio-station>div>form button:hover {
+    background-color: var(--text-yellow-dark);
+    color: var(--primary-green)
+}
+
+section#search-radio-station>div>div {
+    width: 100%;
+    max-width: 482px;
+}
+
+section#search-radio-station>div>div h2 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+section#search-radio-station>div>div>div {
+    width: 100%;
+    overflow-x: scroll;
+    height: 30px;
+    display: none;
+}
+
+section#search-radio-station>div>div>div>div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 482px;
+}
+
+@media screen and (min-width: 700px) {
+    section#search-radio-station>div>h1 {
+        font-size: 30px;
+        max-width: 365px;
+    }
+
+    section#search-radio-station>div>form {
+        max-width: 482px;
+        margin: 40px 0 27px;
+        padding: 40px 20px 34px;
+        gap: 25px;
+    }
+
+    section#search-radio-station>div>form>div>svg {
+        width: 12px;
+        height: 6px;
+        right: 25px;
+    }
+
+    section#search-radio-station>div>div h2 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    section#search-radio-station>div>div>div {
+        height: 35px;
+    }
+
+    section#search-radio-station>div>div>div>div {
+        width: 560px;
+    }
+
+    @media screen and (min-width: 900px) {
+        section#search-radio-station>div {
+            padding-top: 50px;
+        }
+
+        section#search-radio-station>div>h1 {
+            font-size: 36px;
+            max-width: 435px;
+        }
+
+        section#search-radio-station>div>form {
+            max-width: 700px;
+            margin: 55px 50px 53px;
+        }
+
+        section#search-radio-station>div>div {
+            max-width: 700px;
+        }
+
+        section#search-radio-station>div>div h2 {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        section#search-radio-station>div>div>div {
+            height: 53px;
+        }
+
+        section#search-radio-station>div>div>div>div {
+            width: 990px;
+            gap: 50px;
+        }
+
+        @media screen and (min-width: 1100px) {
+
+            section#search-radio-station>div>form,
+            section#search-radio-station>div>div {
+                max-width: 1090px;
+                width: 90%;
+            }
+
+            section#search-radio-station>div>form>div {
+                flex-flow: row nowrap;
+                gap: 40px;
+                max-width: 740px;
+            }
+
+            section#search-radio-station>div>form>div>div {
+                max-width: 350px;
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+
+            section#search-radio-station>div>form,
+            section#search-radio-station>div>div {
+                max-width: 1090px;
+                width: 100%;
+            }
+
+            section#search-radio-station>div>form {
+                flex-direction: row;
+                gap: 40px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+
+
+section#search-radio-station>div>div>div::-webkit-scrollbar {
+    height: 5px;
+}
+
+section#search-radio-station>div>div>div::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: var(--primary-white-200);
+}
+
+section#search-radio-station>div>div>div::-webkit-scrollbar-thumb {
+    background-color: #03726caf;
+    border-radius: 10px;
+}

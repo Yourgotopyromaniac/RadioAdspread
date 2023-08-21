@@ -1,0 +1,111 @@
+.advertiser-booking-container {
+    /* width: calc(100% - 230px); */
+    padding-left: 65px;
+    padding-right: 55px;
+    padding-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .advertiser-booking-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
+
+.advertiser-booking-container>div:nth-child(1) {
+    padding: 20px 0px 60px;
+}
+
+.booking-document-wrapper {
+    max-width: 265px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 0.8px dashed #ABA8A8;
+    border-radius: 2px;
+}
+
+.booking-document-wrapper>div>h4 {
+    color: #F99B28;
+    padding-bottom: 20px;
+}
+
+.booking-document-wrapper>select {
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border: 0.21px solid #3B3950;
+    border-radius: 2px;
+}
+
+.station-btn {
+    display: flex;
+    gap: 15px;
+}
+
+.station-btn>button {
+    width: fit-content;
+    height: 50px;
+    padding: 10px 70px;
+    border: 1px solid rgba(89, 84, 84, 0.8);
+    border-bottom: 0px;
+    border-radius: 2px;
+}
+
+.station-info-wrapper {
+
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 2px;
+}
+
+.station-header-info {
+    padding: 30px 44px 30px 55px;
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    border-bottom: 0.8px solid #ABD1C6;
+    white-space: nowrap;
+
+
+}
+
+.station-header-info>div {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center
+}
+
+.station-cards-container {
+    padding: 40px 0px;
+    padding-left: 60px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+@media (max-width: 768px) {
+    .station-cards-container {
+        padding-left: 30px;
+    }
+}
+
+.station-card {
+    padding: 10px 0px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #004643;
+    border-radius: 2px;
+}
+
+.station-card>img {
+    width: 30px;
+    height: 30px;
+}

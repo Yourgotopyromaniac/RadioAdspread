@@ -1,0 +1,122 @@
+section#newsletter {
+    width: 100%;
+    background: url(../assets/bg-patterns/newsletter-bg-pattern.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 85px;
+}
+section#newsletter > div {
+    width: 100%;
+    max-width: 375px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 40px;
+    gap: 24px;
+}
+section#newsletter div h2 {
+    font-weight: 700;
+    color: var(--text-green);
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+section#newsletter div p {
+    font-weight: 400;
+    color: var(--text-green);
+    font-size: 14px;
+    line-height: 1.21;
+}
+section#newsletter > div > div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    gap: 18px;
+}
+section#newsletter > div input {
+    width: 100%;
+    max-width: 295px;
+    height: 44px;
+    background: rgba(171, 209, 198, 0.32);
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--text-green);
+    padding: 0 16px;
+}
+section#newsletter > div button {
+    font-weight: 700;
+    width: 100%;
+    max-width: 210px;
+    height: 44px;
+    background: var(--text-yellow);
+    border-radius: 2px 2px 0px 0px;
+    color:  var(--primary-white-200);
+    font-size: 15px;
+    transition: background-color 500ms, color 500ms;
+}
+section#newsletter > div button:hover {
+    background-color: var(--text-yellow-dark);
+    color:var(--primary-green)
+}
+@media screen and (min-width: 900px) {
+    section#newsletter {
+        padding: 50px 0 50px;
+    }
+    section#newsletter > div {
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        gap: 50px;
+    }
+    section#newsletter > div > div:nth-child(1) {
+        width: 100;
+        max-width: 350px;
+    }
+    section#newsletter > div > div:nth-child(2) {
+        width: 400px;
+        flex-direction: row;
+        gap: 10px;
+        height: 40px;
+    }
+    section#newsletter > div > div:nth-child(2) button {
+        width: 60%;
+        height: 100%;
+    }
+    @media screen and (min-width: 1200px) {
+        section#newsletter > div > div:nth-child(1) {
+            max-width: 406px;
+        }
+        section#newsletter div h2 {
+            font-size: 24px;
+        }
+        section#newsletter div p {
+            font-size: 16px;
+        }
+        section#newsletter > div > div:nth-child(2) {
+            width: 100%;
+            max-width: 550px;
+            height: 44px;
+        }
+        section#newsletter > div > div:nth-child(2) input {
+            width: 100%;
+            max-width: 447px;
+        }
+        section#newsletter > div > div:nth-child(2) button {
+            width: 100%;
+        }
+        @media screen and (min-width: 1300px) {
+            section#newsletter > div {
+                gap: 80px;
+            }
+            section#newsletter > div > div:nth-child(2) {
+                max-width: 668px;
+            }
+        }
+    }
+}

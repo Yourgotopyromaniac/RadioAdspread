@@ -1,0 +1,58 @@
+.profile-page-container {
+    padding-left: 65px;
+    padding-right: 55px;
+    padding-top: 40px;
+    text-transform: capitalize;
+
+}
+
+.profile-page-header {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-page-header > div > button {
+    color: #F99B28;
+    
+}
+.profile-input {
+    max-width: 450px;
+    border: 1px solid #CACACA;
+    border-radius: 2px;
+    padding: 15px;
+}
+
+.profile-input-container>div>.profile-input>legend {
+    padding: 0px 15px;
+}
+
+.profile-input-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.update-btn-container {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.update-btn-container>button {
+    width: fit-content;
+    padding: 15px 130px;
+    background: #F99B28;
+    color: #fff;
+    border-radius: 2px 0px 0px 2px;
+    text-transform: capitalize;
+
+}
+@media (min-width: 768px) {
+    .profile-input-container {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 36px 70px;
+    }
+}

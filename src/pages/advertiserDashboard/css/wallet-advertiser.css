@@ -1,0 +1,134 @@
+.campaign-container {
+    /* border: 1px solid red; */
+    /* max-width: 1440px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+/* .campaign-container > div {
+    padding: 0 65px;
+    padding-top: 40px;
+
+    border-bottom: 0.8px solid #ABD1C6;
+
+} */
+.campaign-container > div > .wallet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wallet-header > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.wallet-header > div > div:nth-child(1) > span {
+    color:#008000;
+}
+.wallet-header > div > div:nth-child(2) > span {
+color: #FC9732;
+;
+}
+.campaign-sub-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.campaign-sub-header>h3 {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.campaign-sub-header>h4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+
+}
+
+.campaign-sub-header>h4>span {
+    color: #F99B28;
+}
+
+.campaign-form-card-wrapper {
+    padding: 35px 0px 60px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* justify-content: space-between;
+     */
+
+}
+
+.campaign-form-card-wrapper > button{
+    width: fit-content;
+    padding: 10px 78px;
+    background-color: #F99B28;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.campaign-form-card-wrapper>form>h4 {
+    margin-bottom: 30px;
+}
+
+.payment-card-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.payment-card-wrapper>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.payment-card-wrapper>div>div {
+    width: 137px;
+    display: flex;
+    border: 0.886239px solid #ABA8A8;
+    border-radius: 7.08991px;
+
+}
+
+.payment-card-wrapper>div>div>img {
+    width: fit-content;
+    margin: 0 auto;
+
+
+}
+.payment-card-wrapper>div>span {
+font-size: 16px;
+/* font-family: Adobe Clean; */
+}
+.payment-card-wrapper>div:nth-child(1)>div,
+.payment-card-wrapper>div:nth-child(2)>div {
+    height: 75px;
+}
+
+.amount_input_wrap {
+    display: flex;
+    flex-direction: column;
+ gap: 20px;
+
+}
+
+.amount_input_wrap > input {
+    padding: 10px 0;
+    padding-left: 20px;
+    max-width: 350px;
+    border: 0.8px solid #ABA8A8;
+    border-radius: 2px;
+}
+.wallet-table-container {
+    padding: 40px 140px 0px 65px;
+}
+
+
+

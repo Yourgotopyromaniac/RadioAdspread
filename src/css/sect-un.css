@@ -1,0 +1,159 @@
+section#section-un {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+section#section-un > div {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+section#section-un.lp-sect-un > div {
+    padding: 35px 7.334% 50px;
+}
+section#section-un.bp-sect-un > div {
+    padding: 1% 2.685% 66px;
+}
+section#section-un.lp-sect-un > div img {
+    width: 100%;
+    max-width: 360px;
+}
+section#section-un.bp-sect-un > div img {
+    width: 100%;
+    max-width: 390px;
+    margin-bottom: 5px;
+}
+section#section-un.lp-sect-un > div article {
+    width: 100%;
+    max-width: 290px;
+}
+section#section-un.bp-sect-un > div article {
+    width: 100%;
+    max-width: 330px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 30px;
+}
+section#section-un.lp-sect-un > div article h2 {
+    font-weight: 700;
+    font-size: 27.95px;
+    color: var(--text-green);
+}
+section#section-un.bp-sect-un > div article h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--primary-green);
+}
+section#section-un.bp-sect-un > div article p {
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--primary-green);
+}
+@media screen and (min-width: 600px) {
+    section#section-un.lp-sect-un > div img {
+        max-width: 400px;
+    }
+    section#section-un.bp-sect-un > div img {
+        max-width: 450px;
+    }
+    section#section-un.lp-sect-un > div article {
+        max-width: 350px;
+    }
+    section#section-un.bp-sect-un > div article {
+        max-width: 380px;
+    }
+    section#section-un.lp-sect-un > div article h2,
+    section#section-un.bp-sect-un > div article h2  {
+        font-size: 30px;
+    }
+    section#section-un.bp-sect-un > div article p {
+        font-size: 18px;
+    }
+    @media screen and (min-width: 900px) {
+        section#section-un.lp-sect-un > div,
+        section#section-un.bp-sect-un > div {
+            max-width: 1440px;
+        }
+        section#section-un.lp-sect-un > div {
+            max-width: 1440px;
+            padding: 35px 7.312% 50px;
+            flex-flow: row;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+        section#section-un.bp-sect-un > div {
+            max-width: 1440px;
+            padding: 35px 7% 50px;
+            flex-flow: row;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+        section#section-un.lp-sect-un > div img {
+            width: 45%;
+            max-width: 530px;
+        }
+        section#section-un.bp-sect-un > div img {
+            width: 42%;
+            max-width: 500px;
+        }
+        section#section-un.lp-sect-un > div article {
+            width: 41%;
+            max-width: 498px;
+            margin-bottom: calc(4% + 106px);
+            gap: 20px;
+        }
+        section#section-un.bp-sect-un > div article {
+            width: 48%;
+            max-width: 537px;
+            margin-bottom: 77px;
+        }
+        section#section-un.bp-sect-un > div article p {
+            font-size: 16px;
+        }
+        @media screen and (min-width: 1010px) {
+            section#section-un.lp-sect-un > div article h2  {
+                font-size: 36px;
+            }
+            section#section-un.bp-sect-un > div article {
+                margin-bottom: calc(2% + 75px);
+                gap: 25px;
+            }
+            section#section-un.bp-sect-un > div article h2 {
+                font-size: 36px;
+            }
+            section#section-un.bp-sect-un > div article p {
+                font-size: 17px;
+            }
+            @media screen and (min-width: 1123px) {
+                section#section-un.lp-sect-un > div article h2  {
+                    font-size: 40px;
+                }
+                section#section-un.bp-sect-un > div article {
+                    margin-bottom: calc(2.8% + 75px);
+                    gap: 30px;
+                }
+                section#section-un.bp-sect-un > div article h2 {
+                    font-size: 40px;
+                }
+                section#section-un.bp-sect-un > div article p {
+                    font-size: 18px;
+                }
+                @media screen and (min-width: 1350px) {
+                    section#section-un.lp-sect-un > div article h2  {
+                        font-size: 48px;
+                    }
+                    section#section-un.bp-sect-un > div article {
+                        margin-bottom: calc(4% + 75px);
+                    }
+                    section#section-un.bp-sect-un > div article h2 {
+                        font-size: 48px;
+                    }
+                    section#section-un.bp-sect-un > div article p {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

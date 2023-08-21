@@ -1,0 +1,420 @@
+#signup-vendor {
+    width: 100%;
+    padding-bottom: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ABD1C6;
+}
+
+#signup-vendor>header {
+    padding: 40px 20px 50px;
+}
+
+#s-logo-lg {
+    display: none;
+}
+
+#s-logo-sm {
+    display: block;
+}
+
+#signup-vendor>header nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+#signup-vendor>header h1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(19 / 12);
+    text-transform: capitalize;
+    color: var(--primary-green);
+}
+
+#signup-vendor>main {
+    width: 100%;
+    max-width: 650px;
+    background: var(--primary-white-100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 35px 45px;
+    box-shadow: 0px 15.9578px 23.9367px rgba(59, 77, 92, 0.1);
+}
+
+#signup-vendor>main>div {
+    width: 100%;
+    max-width: 400px;
+}
+
+#signup-vendor>main>div>div {
+    text-align: center;
+}
+
+#signup-vendor>main>div>div h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    color: #3B3950;
+    margin-bottom: 7px;
+}
+
+#signup-vendor>main>div>div p {
+    font-weight: 400;
+    font-size: 10.5282px;
+    line-height: calc(13 / 10.5282);
+    color: #3B3950;
+}
+
+#signup-vendor>main>div>div p a {
+    color: var(--text-yellow);
+}
+
+#signup-vendor>main>div>h4 {
+    margin-top: 40px;
+}
+
+.advertiser-type-button {
+    margin-top: 30px;
+}
+
+.advertiser-type-button>button {
+    width: 140px;
+    padding: 10px;
+
+}
+
+/* .advertiser-type-button >button {
+    color: #000;
+    background-color: #EBEBEB;
+border-radius: 1.69px 0px 0px 1.69px;
+} */
+.active-btn {
+    color: white;
+    background: #D48300;
+    border-radius: 2px 0px 0px 2px;
+}
+
+.not-active {
+    color: #000;
+    background-color: #EBEBEB;
+    border-radius: 1.69px 0px 0px 1.69px;
+}
+
+#signup-vendor>main>div>.form-container {
+    width: 100%;
+    margin: 37.79px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#signup-vendor div.full-length {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 26.74px;
+}
+
+#signup-vendor div.input-cont {
+    position: relative;
+    height: 44px;
+    border: 1px solid #CACACA;
+    border-radius: 2px;
+}
+
+#signup-vendor div.half-length {
+    width: 100%;
+    height: 44px;
+    max-width: 173px;
+}
+
+#signup-vendor div.input-cont>label {
+    padding: 0 2px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    left: 8.5px;
+    font-weight: 400;
+    font-size: 12.2829px;
+    line-height: calc(15 / 12.2829);
+    letter-spacing: 0.02em;
+    z-index: 999;
+    color: #3B3950;
+}
+
+#signup-vendor div.input-cont>input {
+    width: 100%;
+    height: 100%;
+    padding: 0 12.5px;
+}
+
+#signup-vendor div.input-cont>input,
+#signup-vendor div.input-cont>input::placeholder {
+    font-weight: 400;
+    font-size: 10.5282px;
+    line-height: 13px;
+    color: #7A7979;
+}
+
+#signup-vendor div.input-cont>button.dropdown-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    right: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    #signup-vendor>main {
+        padding: 40px 10px 45px;
+    }
+
+    #signup-vendor>main>div {
+        width: 100%;
+        max-width: 305px;
+    }
+
+    #signup-vendor div.input-cont>label {
+        padding: 0 2px;
+        background: #fff;
+        position: absolute;
+        top: -10px;
+        left: 5px;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: calc(14 / 11);
+        letter-spacing: 0em;
+        z-index: 999;
+        color: #3B3950;
+    }
+
+    @media screen and (max-width: 768px) {
+        #signup-vendor>main>form {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        #signup-vendor div.full-length {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 28px;
+        }
+
+        #signup-vendor div.half-length {
+            max-width: 100%;
+        }
+    }
+}
+
+#signup-vendor #tac-pp {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 10.84px;
+    margin: 20.38px 0 40.13px;
+}
+
+#signup-vendor #tac-pp>button {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border: 0.593086px solid rgba(59, 57, 80, 0.9);
+    border-radius: 1.48272px;
+}
+
+#signup-vendor #tac-pp>button svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#signup-vendor #tac-pp>p {
+    width: 100%;
+    max-width: 255px;
+    font-size: 8.8963px;
+    line-height: calc(11/8.8963);
+    color: #3B3950;
+}
+
+#signup-vendor #tac-pp>p a {
+    color: var(--text-yellow);
+}
+
+#signup-vendor #login-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#signup-vendor #login-button>button {
+    width: 100%;
+    max-width: 249.55px;
+    height: 100%;
+    background: var(--text-yellow);
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 13.1602px;
+    line-height: calc(16 / 13.1602);
+    color: var(--primary-white-100);
+}
+
+.enable-btn {
+    opacity: 1;
+}
+
+.disable-btn {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+@media screen and (min-width: 700px) {
+    #signup-vendor {
+        padding-bottom: 178px;
+
+    }
+
+    #signup-vendor>header {
+        padding: 40px 20px 50px;
+    }
+
+    #s-logo-sm {
+        display: none;
+    }
+
+    #s-logo-lg {
+        display: block;
+    }
+
+    #signup-vendor>header nav {
+        gap: 14px;
+    }
+
+    #signup-vendor>header h1 {
+        font-size: 20px;
+        line-height: calc(25 / 20);
+    }
+
+    #signup-vendor>main {
+        padding: 48px 35px 60px;
+        box-shadow: 0px 15.9578px 23.9367px rgba(59, 77, 92, 0.1);
+        border-radius: 7.18102px;
+    }
+
+    #signup-vendor>main>div>div h2 {
+        font-size: 20px;
+        line-height: calc(25 / 20);
+        margin-bottom: 6px;
+    }
+
+    #signup-vendor>main>div>div p {
+        font-size: 12px;
+        line-height: calc(14 / 12);
+    }
+
+    #signup-vendor>main>div>.form-container {
+        margin: 45px 0 0;
+    }
+
+    #input-container {
+        gap: 45x;
+    }
+
+    #signup-vendor div.input-cont>label {
+        padding: 0 3px;
+        top: -12px;
+        left: 9px;
+        font-size: 14px;
+        line-height: calc(18 / 14);
+    }
+
+    #signup-vendor div.input-cont>input {
+        padding: 0 11px;
+    }
+
+    #signup-vendor div.input-cont>input,
+    #signup-vendor div.input-cont>input::placeholder {
+        font-size: 12px;
+        line-height: calc(14/12);
+    }
+
+    #signup-vendor div.input-cont>button.dropdown-icon {
+        right: 20px;
+    }
+
+    #signup-vendor #tac-pp {
+        gap: 6px;
+        margin: 46px 0 32px;
+        justify-content: center;
+    }
+
+    /* #signup-vendor #tac-pp > button {
+        width: 12px;
+        height: 12px;
+        border: 0.8px solid rgba(59, 57, 80, 0.9);
+        border-radius: 2px;
+    } */
+    #signup-vendor #tac-pp>p {
+        max-width: 235px;
+        font-size: 12px;
+        line-height: calc(15/12);
+    }
+
+    #signup-vendor #login-button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #signup-vendor #login-button>button {
+        max-width: 310px;
+        height: 100%;
+        font-size: 15px;
+        line-height: calc(18 / 15);
+    }
+}
+
+.country-dropdown,
+.state-dropdown {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    padding-left: 20px;
+    color: var(--text-green);
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 0.5rem auto;
+}
+
+.form-input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.form-input-wrapper>span {
+    position: absolute;
+    margin-top: -30px;
+    font-size: 12px;
+    color: crimson;
+    white-space: nowrap;
+}

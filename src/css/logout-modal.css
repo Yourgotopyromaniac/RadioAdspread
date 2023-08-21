@@ -1,0 +1,80 @@
+/* mobile and base size of the logout modal */
+#logout-modal {
+    width: 100%;
+    max-width: 670px;
+    padding: 27.52px 40.23px 40px;
+    display: flex;
+    justify-content: center;
+    background: var(--primary-white-100);
+}
+#logout-modal > div {
+    width: 100%;
+    max-width: 423px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logout-modal img {
+    width: calc(100% - 76px);
+    min-width: 188px;
+    margin: 0 38px;
+}
+#logout-modal h2 {
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 16.8462px;
+    line-height: calc(24 / 16.8462);
+    color: var(--text-green);
+    margin: 10px 0 34px;
+    text-align: center;
+}
+#logout-modal > div > div {
+    width: 100%;
+    max-width: 317px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#logout-modal > div > div button {
+    width: 60%;
+    max-width: 144px;
+    height: 44px;
+}
+#logout-modal > div > div button:nth-child(1) {
+    background: transparent;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(17 / 14);
+    color: #C52D2F;
+}
+#logout-modal > div > div button:nth-child(2) {
+    background: var(--text-yellow);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: var(18 / 15);
+    color: var(--primary-white-200)
+}
+/* smaller screen of the logout modal */
+@media screen and (max-width: 369px) {
+    #logout-modal > div > div {
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}
+/* larger screen of the logout modal */
+@media screen and (min-width: 700px) {
+    #logout-modal {
+        padding: 39px 40.23px 84px;
+    }
+    #logout-modal h2 {
+        font-size: 30px;
+        line-height: calc(43 / 30);
+        margin: 10px 0 60px;
+    }
+    #logout-modal > div > div button:nth-child(1) {
+        font-size: 16px;
+        line-height: calc(19 / 16);
+    }
+}

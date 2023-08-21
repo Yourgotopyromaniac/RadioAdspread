@@ -1,0 +1,132 @@
+.dashboard-home-container {
+    padding: 30px 15px 60px;
+}
+
+.dashboard-card-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+
+.card-content-wrapper {
+    color: #fff;
+    padding: 10px 0;
+    padding-left: 7px;
+    width: 120px;
+    display: flex;
+    gap: 15px;
+    /* justify-content: space-between; */
+    background: #004643;
+}
+
+.card-content-wrapper>div>span:nth-child(1) {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.card-content-wrapper>div>span:nth-child(2) {
+    font-size: 8px;
+    line-height: 10px;
+}
+
+
+.dashboard-table-container {
+    margin-top: 60px;
+}
+
+.dashboard-table-container>table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+    line-height: 14px;
+    border: 0.8px solid rgba(0, 70, 67, 0.6);
+    border-radius: 2px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 15px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+th,
+tr:nth-child(even) {
+    /* background: rgba(228, 240, 237, 0.6); */
+    /* border-radius: 2px 0px 0px 2px; */
+}
+
+@media (min-width: 600px) {
+    .card-content-wrapper {
+        width: 150px;
+        /* padding: 15px; */
+
+    }
+
+    .card-content-wrapper>div>span:nth-child(1) {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .card-content-wrapper>div>span:nth-child(2) {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .dashboard-home-container {
+        padding: 35px 65px 60px 55px;
+    }
+
+    /* .dashboard-card-container {
+        gap: 145px;
+    } */
+
+    .card-content-wrapper {
+        width: 270px;
+        gap: 30px;
+    }
+
+    .card-content-wrapper>img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .card-content-wrapper>div>span:nth-child(1) {
+
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .card-content-wrapper>div>span:nth-child(2) {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    th,
+    td {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .skeleton-dashboard-table>table>thead>tr>th>.chakra-skeleton,
+    .skeleton-dashboard-table>table>tbody>tr>td>.chakra-skeleton {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.card-content-wrapper>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+@media (min-width: 768px) and (max-width: 840px)  {
+    .dashboard-home-container {
+        padding: 30px;
+    }
+}

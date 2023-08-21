@@ -1,0 +1,37 @@
+.advertiser-dashboard-station {
+    padding-left: 65px;
+    padding-right: 55px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    .advertiser-dashboard-station {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+.advertiser-dashboard-station > h4 {
+    margin-bottom: 40px;
+}
+.advertiser-dashboard-station > span { 
+text-transform: lowercase;
+margin-top: 15px;
+}
+
+.table-wrapper {
+    
+    border: 1px solid #E8E8E8;
+    overflow-x: scroll
+}
+@media (min-width:768px) {
+    .table-wrapper {
+        overflow-x: hidden;
+    }
+}
+
+/* @media (max-width: 768px) {
+    .table-wrapper {
+        overflow-y:
+    }
+} */

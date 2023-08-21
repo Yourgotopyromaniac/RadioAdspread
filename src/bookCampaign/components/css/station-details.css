@@ -1,0 +1,427 @@
+#station-detail-cnt {
+    padding: 31px 0 36px;
+    border: 0.743952px solid #ABD1C6;
+    width: 100%;
+    max-width: 1160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#station-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 0 15px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+#station-title > div {
+    width: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#station-title > div > h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primary-green);
+}
+#station-title > div > h3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #0E0E2C;
+}
+#station-title > button {
+    width: 137px;
+    height: 37.23px;
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--primary-green);
+    border: 1px solid var(--text-yellow);
+    border-radius: 2px;
+}
+@media screen and (max-width: 341px) {
+    #station-title {
+        justify-content: center;
+        gap: 20px;
+    }
+    #station-title > div {
+        align-items: center;
+    }
+}
+#select-advert-details {
+    width: 100%;
+    padding: 0 15px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #DADADA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#select-advert-details > div {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 8px 0 11px;
+}
+#select-advert-details > div:nth-child(2) {
+    margin: 30px 0 40px;
+}
+#select-advert-details > div label {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--primary-green);
+}
+#select-advert-details > div > div >select {
+    width: 100%;
+    height: 44px;
+    border: 0.8px solid #ABA8A8;
+    border-radius: 2px;
+    padding: 10px;
+    /* position: relative;
+   
+    margin: 7.5px 0 5px; */
+}
+#select-advert-details > div > div input {
+    width: 100%;
+    height: 100%;
+    padding: 16px 20px 13px;
+}
+#select-advert-details > div > div input,
+#select-advert-details > div > div input::placeholder {
+    font-weight: 400;
+    font-size: 13px;
+    color: #0E0E2C;
+}
+#select-advert-details > div > div svg {
+    position: absolute;
+    top: 18.5px;
+    right: 20.5px;
+}
+#select-advert-details > div p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+    color: #C52D2F;
+}
+#select-advert-details > div ul.detail-dd {
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 44px;
+    z-index: 9999;
+    background-color: var(--primary-white-100);
+}
+#select-advert-details > div ul.detail-dd li {
+    background: transparent;
+    width: 100%;
+    padding: 16px 20px 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #0E0E2C;
+}
+#select-advert-details > div ul.detail-dd li:hover {
+    background: #EFF6F4;
+}
+#select-advert-time {
+    width: 100%;
+    padding: 30px 15px 0;
+}
+#select-advert-time > h2 {
+    width: 100%;
+    max-width: 172px;
+    height: auto;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21px;
+    color: #C52D2F;
+}
+#select-date {
+    width: 100%;
+    margin: 46px 0 45px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+#select-date > div {
+    width: 45%;
+    min-width: 146px;
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#select-date > div > div {
+    width: 100%;
+    height: 44px;
+    position: relative;
+}
+#select-date > div label {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--primary-green);
+}
+#select-date > div input {
+    width: 100%;
+    height: 100%;
+    border: 0.8px solid #ABA8A8;
+    padding: 0 14px 0 11px;
+}
+#select-date > div input,
+#select-date > div input::placeholder {
+    font-weight: 400;
+    font-size: 10px;
+    color: #0E0E2C;
+}
+#select-date > div input::-webkit-calendar-picker-indicator {
+    width: 15px;
+    height: 15px;
+    background: url(../../../assets/icons/date-icon.svg) no-repeat;
+    background-position: 0% 0%;
+    background-size: cover;
+    cursor: pointer;
+}
+#select-date > div input.formatted-date {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: calc(100% - 35px);
+    margin-right: 35px;
+    padding-right: 0;
+    border: none;
+    height: calc(100% - 2px);
+}
+
+#set-time-slot {
+    width: calc(100% - 30px);
+    margin: 0 15px;
+    max-width: 495px;
+}
+#set-time-slot > h2 {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--primary-green);
+    margin-bottom: 15px;
+}
+dl#booking-details {
+    width: 100%;
+    max-width: 380px;
+    margin: 40px auto 50px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+dl#booking-details h2 {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--primary-green);
+}
+dl#booking-details > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+dl#booking-details > div dt {
+    width: 100%;
+    max-width: 113px;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--primary-green);
+}
+dl#booking-details > div dd {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--primary-green);
+}
+#checkout-btn {
+    width: 100%;
+    max-width: 210px;
+    height: 44px;
+    border-radius: 2px;
+    background: var(--text-yellow);
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--primary-white-100);
+}
+
+@media screen and (min-width: 420px) {
+    #select-date > div input,
+    #select-date > div input::placeholder {
+        font-size: 11px;
+    }
+    #select-date > div input::-webkit-calendar-picker-indicator {
+        width: 18px;
+        height: 18px;
+    }
+    #select-date > div input.formatted-date {
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        width: calc(100% - 40px);
+        margin-right: 40px;
+        padding-right: 0;
+        border: none;
+        height: calc(100% - 2px);
+    }
+    @media screen and (min-width: 450px) {
+        #select-date > div input,
+        #select-date > div input::placeholder {
+            font-size: 12px;
+        }
+        @media screen and (min-width: 500px) {
+            #select-advert-time > h2 {
+                max-width: 172px;
+                font-size: 15px;
+            }
+            #select-date > div label {
+                font-size: 16px;
+            }
+            #select-date > div input,
+            #select-date > div input::placeholder {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #station-detail-cnt {
+        padding: 40px 0 50px;
+    }
+    #station-title {
+        padding: 0 70px;
+        margin-bottom: 69px;
+        align-items: center;
+    }
+    #station-title > div {
+        width: 180px;
+    }
+    #station-title > div > h2 {
+        font-size: 28px;
+    }
+    #station-title > div > h3 {
+        font-size: 15px;
+    }
+    #station-title > button {
+        width: 160px;
+        height: 44px;
+        font-size: 14px;
+    }
+    #select-advert-details {
+        padding: 0 70px;
+        padding-bottom: 40px;
+    }
+    #select-advert-details > div {
+        max-width: 495px;
+    }
+    #select-advert-details > div:nth-child(2) {
+        margin: 40px 0 40px;
+    }
+    #select-advert-details > div label {
+        font-size: 16px;
+    }
+    #select-advert-details > div > div {
+        margin: 15px 0 10px;
+    }
+    #select-advert-details > div > div input,
+    #select-advert-details > div > div input::placeholder {
+        font-size: 15px;
+    }
+    #select-advert-details > div p {
+        font-size: 15px;
+    }
+    #select-date > div input {
+        padding: 0 14px 0 20px;
+    }
+    #select-date > div input.formatted-date {
+        padding: 0 0 0 20px;
+    }
+    #set-time-slot {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #set-time-slot > h2 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    dl#booking-details {
+        max-width: 495px;
+        margin: 75px auto 70px;
+        gap: 21px;
+        padding: 0;
+    }
+    dl#booking-details h2 {
+        font-size: 18px;
+    }
+    dl#booking-details > div dt {
+        max-width: 135px;
+        font-size: 17px;
+    }
+    dl#booking-details > div dd {
+        font-size: 17px;
+    }
+    @media screen and (min-width: 700px) {
+        #station-title > div {
+            width: 100%;
+            max-width: 220px;
+        }
+        #station-title > div > h2 {
+            font-size: 32px;
+        }
+        #station-title > div > h3 {
+            font-size: 16px;
+        }
+        #station-title > button {
+            max-width: 210px;
+            font-size: 15px;
+        }
+    }
+}
+
+
+/* .test {
+    width: 45%;
+    min-width: 146px;
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.testing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    border: 1px solid green;
+    padding: 0 14px 0 20px;
+
+}
+.testing >input {
+    border: 1px solid #d2d6db;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+.fa-calendar {
+    font-size: 20px;
+} */
+/* [type="date"] {
+    cursor: pointer !important;
+    display: block;
+    border: 3px solid red;
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    text-align: right;
+    top: 0px; 
+    z-index: 1;
+} */

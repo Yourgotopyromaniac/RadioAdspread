@@ -1,0 +1,43 @@
+.payment-modal-container {
+    padding: 40px 50px 35px;
+    max-width: 500px;
+    background-color: #fff;
+    border: 1px solid green;
+margin-top: 0 auto;
+
+}
+.payment-modal-container > div:nth-child(1) {
+border: 1px solid black;
+width: 190px;
+height: 190px;
+margin: 0 auto;
+}
+
+.payment-modal-container > h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+.payment-modal-container > p {
+    text-align: center;
+    margin-top: 20px;
+}
+.modal-btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 16px;
+}
+.modal-btn-wrapper > button:nth-child(1) {
+    color:  #F99B28;
+    line-height: 12px;
+    text-transform: capitalize;
+}
+
+.modal-btn-wrapper > button:nth-child(2) {
+    padding: 12px 40px;
+    background-color: #F99B28;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 19px;
+    
+}

@@ -1,0 +1,277 @@
+div#talk-with-expert {
+    width: 100%;
+    position: relative;
+}
+div#talk-with-expert > main > section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 62px;
+}
+div#talk-with-expert > main > section h1 {
+    font-weight: 700;
+    color: var(--text-green);
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+div#talk-with-expert > main > section h2 {
+    max-width: 158px;
+    font-weight: 700;
+    color: var(--text-green);
+    font-size: 16px;
+    line-height: 1.1875;
+    margin-bottom: 23px;
+}
+div#talk-with-expert > main > section > div {
+    padding: 0 9.334%;
+}
+div#talk-with-expert > main > section > div,
+div#talk-with-expert > main > section > div > div {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+div#talk-with-expert form {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 24px;
+}
+div#talk-with-expert form > div {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+}
+div#talk-with-expert form > div label {
+    font-weight: 700;
+    font-size: 10.0374px;
+    color: var(--primary-green);
+}
+div#talk-with-expert form > div input,
+div#talk-with-expert form > div select,
+div#talk-with-expert form > div textarea {
+    width: 100%;
+    border: 0.501871px solid #ABA8A8;
+    border-radius: 1.25468px;
+    padding: 17px 10.86px;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: Adobe Clean;
+}
+div#talk-with-expert form > div input,
+div#talk-with-expert form > div select
+{
+    height: 44px;
+}
+div#talk-with-expert form > div select {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    padding-left: 20px;
+    color: var(--text-green);
+    appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.7rem top 50%;
+  background-size: 0.65rem auto;
+}
+div#talk-with-expert form > div textarea {
+    resize: none;
+    height: 121px;
+}
+div#talk-with-expert form > div > span,
+div#talk-with-expert form > div > svg,
+div#talk-with-expert form > div > div {
+    position: absolute;
+}
+div#talk-with-expert form > div > span {
+    display: none;
+    right: 15px;
+    bottom: 8px;
+}
+div#talk-with-expert form > div > span > svg {
+    width: 20px;
+    height: 20px;
+}
+div#talk-with-expert form > div > svg {
+    right: 24px;
+    bottom: 18px;
+}
+div#talk-with-expert form > div > div {
+    display: none;
+    font-weight: 700;
+    font-size: 11px;
+    color: var(--error-red);
+    left: 0;
+    bottom: -16px;
+}
+div#talk-with-expert form > button {
+    margin-top: 14px;
+    font-weight: 700;
+    width: 100%;
+    max-width: 210px;
+    height: 44px;
+    background: #F99B28;
+    border-radius: 2px 2px 0px 0px;
+    color: #FFFFFE;
+    font-size: 15px;
+}
+div#talk-with-expert > aside {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 99999;
+}
+div#talk-with-expert > aside div {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 2px;
+    margin: auto;
+    background: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 36px 40px 31.71px;
+    color: #0E0E2C;
+}
+div#talk-with-expert > aside div > img {
+    width: 100%;
+    max-width: 202px;
+    height: auto;
+    object-fit: cover;
+}
+div#talk-with-expert > aside div h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 40px 0 15px;
+    text-align: center;
+}
+div#talk-with-expert > aside div h3 {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+div#talk-with-expert > aside div button {
+    margin-top: 41px;
+    font-weight: 700;
+    width: 100%;
+    max-width: 256px;
+    height: 50px;
+    background: #F99B28;
+    border-radius: 2px 2px 0px 0px;
+    color: #FFFFFE;
+    font-size: 15px;
+}
+@media screen and (min-width: 426px) {
+    div#talk-with-expert > main > section > div {
+        padding: 0 12%;
+    }
+    div#talk-with-expert > main > section h1 {
+        font-size: 28px;
+    }
+    div#talk-with-expert > main > section h2 {
+        font-size: 18px;
+        max-width: 170px;
+    }
+    div#talk-with-expert form > div label {
+        font-size: 12px;
+    }
+    @media screen and (min-width: 900px) {
+        div#talk-with-expert > main > section {
+            padding: 50px 0 162px;
+        }
+        div#talk-with-expert > main > section > div > div {
+            flex-flow: row nowrap;
+            align-items: flex-start;
+            gap: 6%;
+        }
+        div#talk-with-expert > main > section h1 {
+            margin-bottom: 50px;
+            font-size: 30px;
+        }
+        div#talk-with-expert > main > section h2 {
+            margin-top: 185px;
+            font-size: 20px;
+            max-width: 200px;
+        }
+        div#talk-with-expert form {
+            width: 60%;
+        }
+        div#talk-with-expert form > div label {
+            font-size: 14px;
+        }
+        div#talk-with-expert form > div input,
+        div#talk-with-expert form > div textarea {
+            font-size: 13px;
+        }
+        @media screen and (min-width: 1150px) {
+            div#talk-with-expert > main > section {
+                padding: 50px 0 202px;
+            }
+            div#talk-with-expert > main > section > div {
+                padding: 0 9%;
+                max-width: 1440px;
+            }
+            div#talk-with-expert > main > section h1 {
+                margin-bottom: 90px;
+                font-size: 32px;
+            }
+            div#talk-with-expert > main > section h2 {
+                margin-top: 185px;
+                font-size: 24px;
+                max-width: 280px;
+            }
+            div#talk-with-expert form > div label {
+                font-size: 16px;
+            }
+            div#talk-with-expert form > div input,
+            div#talk-with-expert form > div textarea {
+                font-size: 15px;
+            }
+        }
+        @media screen and (min-width: 1250px) {
+            div#talk-with-expert > main > section {
+                padding: 50px 0 252px;
+            }
+            div#talk-with-expert > main > section > div {
+                padding: 0 10%;
+            }
+            div#talk-with-expert > main > section > div > div {
+                gap: 70px;
+            }
+            div#talk-with-expert > main > section h2 {
+                margin-top: 235px;
+            }
+            div#talk-with-expert form {
+                gap: 40px;
+            }
+            div#talk-with-expert form > div {
+                width: 100%;
+                max-width: 603px;
+                gap: 15px;
+            }
+            div#talk-with-expert form > button {
+                margin-top: 34px;
+            }
+            @media screen and (min-width: 1350px) {
+                div#talk-with-expert > main > section {
+                    padding: 50px 0 370px;
+                }
+                div#talk-with-expert > main > section > div {
+                    padding: 0 10% 0 133px;
+                }
+            }
+        }
+    }
+}

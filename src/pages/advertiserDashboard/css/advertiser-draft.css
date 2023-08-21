@@ -1,0 +1,10 @@
+.advertiser-draft-container {
+    padding-left: 65px;
+    padding-right: 30px;
+}
+@media (max-width: 768px) {
+    .advertiser-draft-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

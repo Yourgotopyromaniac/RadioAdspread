@@ -1,0 +1,176 @@
+section#main-footer-sect {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 56.65px 0 50px;
+    background: var(--primary-green);
+    color: var(--primary-white-200);
+}
+section#main-footer-sect > div {
+    width: 100%;
+    max-width: 375px;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0 40px;
+}
+section#main-footer-sect > div > div:nth-child(1) {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+    margin-bottom: 32px;
+}
+section#main-footer-sect > div > div:nth-child(1) > div {
+    max-width: 215px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 9.75px;
+}
+section#main-footer-sect > div > div:nth-child(1) address {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+    letter-spacing: 0.02em;
+}
+section#main-footer-sect > div > div:nth-child(1) address > div {
+    display:  flex;
+    align-items: center;
+    gap: 13px;
+}
+section#main-footer-sect > div > div:nth-child(1) address > div span:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+}
+section#main-footer-sect > div > div:nth-child(1) address > div span:nth-child(2) {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+}
+section#main-footer-sect > div dl {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 42px;
+}
+section#main-footer-sect > div dl:nth-child(4) {
+    margin-bottom: 50px;
+}
+section#main-footer-sect > div dl dt {
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+section#main-footer-sect > div dl dt button {
+    transition: .3s ease-in-out;
+    transform: rotate(0deg);
+}
+section#main-footer-sect > div dl dt button.foot-btn-spin {
+    transform: rotate(180deg);
+}
+section#main-footer-sect > div dl > div {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 14px;
+    padding: 0px;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+}
+section#main-footer-sect > div dl > div.foot-dd-open {
+    padding: 15px 0 0;
+    height: 93px;
+    opacity: 1;
+}
+section#main-footer-sect > div dl:nth-child(3) > div.foot-dd-open {
+    height: 155px;
+}
+section#main-footer-sect > div dl dd {
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+}
+section#main-footer-sect > div > div#foot-socials {
+    width: 127px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 25px;
+}
+section#main-footer-sect > div > div#foot-socials > span {
+    font-weight: 400;
+    font-size: 16px;
+}
+section#main-footer-sect > div > div#foot-socials > div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+@media screen and (min-width: 900px) {
+    section#main-footer-sect {
+        padding: 70px 0 65px;
+    }
+    section#main-footer-sect > div {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 0 40px;
+        justify-content: center;
+    }
+    section#main-footer-sect > div > div:nth-child(1) {
+        margin: 0;
+        margin-right: calc((100% * 56) / 1360);
+    }
+    section#main-footer-sect > div dl {
+        margin: 0;
+    }
+    section#main-footer-sect > div dl:nth-child(2) {
+        margin-right: calc((100% * 74) / 1360);
+    }
+    section#main-footer-sect > div dl:nth-child(3) {
+        margin-right: calc((100% * 109) / 1360);
+    }
+    section#main-footer-sect > div dl:nth-child(4) {
+        margin: 0;
+        margin-right: calc((100% * 196) / 1360);
+    }
+    section#main-footer-sect > div dl dt button {
+        display: none;
+    }
+    @media screen and (min-width: 1200px) {
+        section#main-footer-sect > div > div:nth-child(1) {
+            gap: 30px;
+        }
+        section#main-footer-sect > div dl dt {
+            font-size: 20px;
+        }
+        section#main-footer-sect > div dl > div.foot-dd-open {
+            padding: 20px 0 0;
+            height: 107px;
+        }
+        section#main-footer-sect > div dl:nth-child(3) > div.foot-dd-open {
+            height: 175px;
+        }
+        section#main-footer-sect > div dl dd {
+            font-size: 15px;
+        }
+        section#main-footer-sect > div > div#foot-socials > span {
+            font-size: 20px;
+        }
+        section#main-footer-sect > div > div#foot-socials {
+            gap: 38px;
+        }
+    }
+}
+
+
+
+/* 56, 74, 109, 196 */
+
+

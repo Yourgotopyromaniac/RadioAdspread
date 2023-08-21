@@ -1,0 +1,348 @@
+.overlay-modal {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 1000;
+    overflow-y: auto
+}
+
+.modal-wrapper {
+    position: absolute;
+    background-color: #FFF;
+    padding: 15px;
+    z-index: 1000;
+    width: "35%";
+    border-radius: .5em;
+}
+
+.over-modal {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(239, 236, 236);
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.moda-wrapper {
+    position: absolute;
+    background-color: #FFF;
+    padding: 15px;
+    z-index: 1000;
+    /* width: 700px; */
+    border-radius: .5em;
+}
+
+
+.schedule-container {
+    position: fixed;
+    max-width: 900px;
+    padding: 40px 124px 30px;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    
+}
+.cancel-wrapper{
+    width: 100%;
+    margin-left: 100%;
+}
+.schedule-input {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    gap: 40px;
+}
+.schedule-input > div {
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.schedule-input > div > label {
+    color: #004643;
+        font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+}
+.schedule-input > div > input {
+    padding: 10px 0;
+    padding-left: 20px;
+    border: 0.8px solid #ABA8A8;
+border-radius: 2px;
+}
+.schedule-time-wrapper {
+    display: flex;
+    gap: 160px;
+    margin-bottom: 50px;
+}
+.schedule-time-dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.schedule-time-dropdown > label{
+    text-transform: capitalize;
+    font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+}
+
+.schedule-time-dropdown > div {
+display: flex;
+gap: 10px;
+}
+.schedule-time-dropdown > div > select{ 
+
+    padding: 5px;
+    background: rgba(228, 240, 237, 0.6);
+    border-radius: 2px;
+}
+.schedule-time-dropdown > div > select > option{ 
+    font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+}
+.add-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.add-btn > button {
+    font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+    color: #fff;
+    width: fit-content;
+    padding: 10px 40px;
+    background-color: #F99B28;
+border-radius: 2px 2px 0px 0px;
+
+}
+.slot-modal-wrapper {
+    position: fixed;
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: rgb(239, 236, 236);
+    /* opacity: 0.9; */
+}
+.slot-container {
+    position: absolute;
+    max-width: 900px;
+    padding: 40px 124px 30px;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    z-index: 9999;
+
+
+}
+.slot-container > h4 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.slot-time-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+    row-gap: 30px;
+    height: 270px;
+    overflow-y: scroll;
+
+
+}
+.slot-time-wrapper::-webkit-scrollbar {
+   width: 1rem;
+}
+.slot-time-wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+                    
+.slot-time-wrapper::-webkit-scrollbar-thumb {
+    background: #C1C1C1;
+border-radius: 4.52903px;
+}
+.slot-time-wrapper > div {
+    max-width: 213px;
+    display: flex;
+    justify-content: center;
+    border: 0.8px solid #ABA8A8;
+border-radius: 2px;
+    /* border: 1px solid black; */
+}
+.slot-time-wrapper > div > button {
+    /* width: 100%; */
+    width: 134px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #D9D9D9;
+border-radius: 2px 0px 0px 2px;
+font-size: 12px;
+line-height: 17px;
+}
+.slot-time-wrapper > div > input {
+    width: 100%;
+    max-width: 80px;
+    padding-left: 5px;
+}
+.slot-time-wrapper > div > input::placeholder {
+    font-size: 12px;
+    line-height: 14px;
+}
+.agreement-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.agreement-btn  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.agreement-btn > button{
+    color: #fff;
+    width: fit-content;
+    padding: 10px 30px;
+    background-color: #F99B28;
+border-radius: 2px;
+}
+.cancel-icon-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .schedule-container {
+        width: 100%;
+    max-width: 375px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+    .schedule-input > div > label {
+font-size: 14px;
+line-height: 17px;
+    }
+    .schedule-input > div > input {
+        width: 100%;
+        max-width: 300px;
+    }
+    .schedule-time-wrapper {
+        display: flex;
+        gap: 30px;
+    }
+
+    .schedule-time-dropdown {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+    .schedule-time-dropdown > label{
+
+    font-size: 14px;
+    line-height: 17px;
+    }
+    
+    .schedule-time-dropdown > div {
+    display: flex;
+    gap: 5px;
+    }
+    .schedule-time-dropdown > div > select{ 
+    max-width: 375px;
+        padding: 0px;
+        background: rgba(228, 240, 237, 0.6);
+        border-radius: 2px;
+    }
+    .schedule-time-dropdown > div > select > option{ 
+    font-size: 10px;
+   
+    }
+}
+
+/* talk-with-expert styling */
+
+.talk-with-expert-modal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100vh;
+    /* height: cal(100%-5rem); */
+    background: #000;
+    top: 0%;
+    z-index: 999;
+}
+
+.talk-with-expert-modal-container {
+    width: 100%;
+    max-width: 500px;
+   top: 50%;
+    max-height: 500px;
+    /* border: 2px solid black; */
+    background-color: #fff;
+    /* position: absolute;
+    z-index: 999; */
+    /* transform: translate(50%, 50%); */
+}
+.talk-with-expert-modal-wrapper {
+    padding: 36px 107px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.talk-with-expert-modal-gif {
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+.talk-with-expert-modal-gif >  img {
+    width: 100%;
+    height: 100%;
+}
+.talk-with-expert-modal-details {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+.talk-with-expert-modal-title {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 12px;
+}
+.talk-with-expert-modal-text {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 18px;
+}
+.talk-with-expert-modal-details > button {
+    
+    color: #fff;
+width: fit-content;
+max-width: 250px;
+padding: 20px 60px;
+background-color: #F99B28;
+margin-top: 40px;
+}

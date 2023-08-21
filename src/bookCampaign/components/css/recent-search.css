@@ -1,0 +1,41 @@
+button.recent-state-search {
+    background: rgba(171, 209, 198, 0.25);
+    border-radius: 1px;
+    padding: 5.5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+button.recent-state-search > svg {
+    width: 10.5px;
+    height: 10.5px;
+}
+button.recent-state-search > span {
+    font-weight: 400;
+    font-size: 8px;
+    color: var(--primary-white-100);
+    display: block;
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 700px) {
+    button.recent-state-search > svg {
+        width: 15px;
+        height: 15px;
+    }
+    button.recent-state-search > span {
+        font-size: 10px;
+    }
+    @media screen and (min-width: 900px) {
+        button.recent-state-search {
+            padding: 11.5px 20px;
+        }
+        button.recent-state-search > svg {
+            width: 21px;
+            height: 21px;
+        }
+        button.recent-state-search > span {
+            font-size: 16px;
+        }
+    }
+}

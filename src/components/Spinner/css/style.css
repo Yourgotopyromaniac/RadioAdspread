@@ -1,0 +1,15 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 9999;
+  }
+
+  .wrapper_body{
+    height: 100vh;
+    width: 80%;
+  }
+  

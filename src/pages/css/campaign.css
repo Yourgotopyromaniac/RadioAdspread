@@ -1,0 +1,83 @@
+.campaign-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 90px 120px 40px;
+}
+.campaign-container > h4 {
+  padding: 40px 0px;
+}
+.first-campaign-section  {
+width: 100%;
+margin-top: 40px;
+
+}
+
+.lazy {
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+}
+.lazy > div:nth-child(1) {
+    align-items: center;
+gap: .65rem
+
+}
+
+.first-campaign-section > div > div {
+display: flex;
+}
+.first-campaign-section > div > div > select {
+    border: 1px solid #ABA8A8;
+}
+
+  .input-box{
+    width: 250px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+  }
+  @media (max-width: 768px) {
+    .input-box{
+      width: 130px;
+    }
+  }
+  
+  .input-box svg {
+    position: absolute;
+    right: 13px;
+    top:15px;
+    color:#ced4da;
+  
+  }
+  @media (max-width: 768px) {
+    .input-box svg {
+      right: 6px;
+    }
+  }
+  
+  
+  .form-control{
+  
+    height: 50px;
+    background-color:#eeeeee69;
+
+  }
+  
+  .form-control:focus{
+    background-color: #eeeeee69;
+    box-shadow: none;
+    border-color: #eee;
+  }
+  .campaign-id {
+    color:  #F99B28;
+  }
+    @media (max-width: 768px) {
+      .campaign-dashboard-container {
+padding-left: 15px;
+padding-right: 0px;
+      }
+      .first-campaign-section  {
+        padding-right: 15px;
+      }
+    }

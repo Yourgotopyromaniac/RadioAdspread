@@ -1,0 +1,150 @@
+.report-container>h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 65px;
+}
+
+@media (max-width: 768px) {
+    .report-container>h2 {
+        padding-left: 30px;
+    }
+}
+
+.report-route-btn {
+    padding: 0 107px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.5px solid #ABA8A8;
+}
+
+@media (max-width: 768px) {
+    .report-route-btn {
+        padding: 0 30px;
+    }
+}
+
+.report-route-btn>button {
+    padding-bottom: 5px;
+
+}
+
+.active-border {
+    border-bottom: 1.5px solid #004643;
+}
+
+.overview-container {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card-content {
+    color: #fff;
+    padding: 36px 30px;
+    padding-right: 0px;
+    display: flex;
+    width: 265px;
+    background-color: #004643;
+    border-radius: 2px;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .card-content {
+        width: 160px;
+        padding: 30px 15px;
+    }
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 9.66319px;
+}
+
+.overview-container {
+    padding: 50px 107px;
+
+}
+
+@media (max-width: 768px) {
+    .overview-container {
+        padding: 50px 15px;
+    }
+}
+
+.statement-container {
+    padding: 50px 107px;
+}
+@media (max-width: 768px) {
+    .statement-container {
+        padding: 50px 0px;
+        padding-left: 30px;
+    }
+}
+
+
+.start-date-wrapper>input,
+.end-date-wrapper>input {
+    width: 265px;
+    border: 0.8px solid #ABA8A8;
+    padding: 15px 20px;
+}
+@media (max-width: 768px) {
+    .start-date-wrapper>input,
+.end-date-wrapper>input {
+    width: 122px;
+    padding: 15px 10px;
+}
+}
+
+.date-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.date-wrapper>button {
+    padding: 15px 45px;
+    border: 1px solid #F99B28;
+    border-radius: 2px;
+}
+@media (max-width: 768px) {
+    .date-wrapper {
+        padding-right: 15px;
+    }
+    .date-wrapper>button {
+        padding: 10px 30px;
+        height: 50px;
+        margin-top: auto;
+    }
+}
+
+.payment-history-container {
+    padding: 50px 107px;
+}
+@media (max-width: 768px) {
+    .payment-history-container {
+        padding: 50px 0px;
+        padding-left: 30px;
+    }
+}
+
+.table-body-container {
+    border: 1px solid #E8E8E8;
+}
+
+.pagination-section {
+    margin-top: 40px;
+}
+
+.pagination-section>div {
+    font-weight: var(--font-400);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+}

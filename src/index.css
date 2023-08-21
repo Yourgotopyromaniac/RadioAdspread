@@ -1,0 +1,120 @@
+/* font family */
+/* @font-face {
+  font-family: adobe-clean-regular;
+  src: url(./assets/fonts/Adobe-clean/regular.otf);
+}
+
+@font-face {
+  font-family: adobe-clean-bold;
+  src: url(./assets/fonts/Adobe-clean/bold.otf);
+} */
+@font-face {
+  font-family: 'Adobe Clean';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Adobe Clean'), url('https://fonts.cdnfonts.com/s/50943/AdobeCleanRegular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Adobe Clean';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Adobe Clean'), url('https://fonts.cdnfonts.com/s/50943/AdobeCleanBold.woff') format('woff');
+}
+
+
+
+/* base styles */
+html,
+body,
+nav,
+main,
+footer {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Adobe Clean";
+text-transform: capitalize;
+color: #0F3433;;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-style: normal;
+  text-decoration: none;
+  list-style: none;
+  
+
+}
+
+button,
+a {
+  cursor: pointer;
+  background: transparent;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* a:hover {
+  text-decoration: underline;
+} */
+
+:root {
+  --font-700: adobe-clean-bold;
+  --font-400: adobe-clean-regular;
+  /* colors */
+  --primary-green: #004643;
+  --light-green: #ABD1C6;
+  --text-green: #0F3433;
+  --text-yellow: #F99B28;
+  --text-yellow-dark: rgb(218, 134, 31);
+  --primary-white-100: #FFFFFF;
+  --primary-white-200: #FFFFFE;
+
+  --error-red: #FB2730;
+}
+
+/* table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Adobe Clean ;
+  white-space: nowrap;
+
+}
+table, tr, td{
+  border:none;
+ }
+ th{
+  text-align: left;
+ }
+ th, td{
+  padding: 20px;
+  font-weight: var(--font-700);
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+ }
+ td {
+  border-bottom: 0.5px solid #ABA8A8;
+ }
+
+th {
+  background: #E4F0ED;
+  border-radius: 2px 0px 0px 2px;
+} */
+::-webkit-scrollbar-thumb {
+  background: #ef4444;
+  border-radius: 20px;
+}
+/* ::-webkit-scrollbar {
+  width: 20px;
+} */
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
